@@ -24,6 +24,8 @@ function App() {
         viewport,
       };
       page.render(renderContext);
+
+      // TODO:textLayerなどの追加
     };
     viewPdf();
   }, [pdfCanvasRef]);
