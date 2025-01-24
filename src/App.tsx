@@ -31,8 +31,8 @@ function App() {
   }, [pdfCanvasRef]);
 
   return (
-    <div className="mx-auto h-screen w-screen">
-      <canvas ref={pdfCanvasRef} />
+    <div className="h-screen w-screen">
+      <canvas className="mx-auto" ref={pdfCanvasRef} />
     </div>
   );
 }
